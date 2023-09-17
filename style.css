@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #232323;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #5cd5ad;
+}
+
+body
+{
+    background: #111111;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right,#ff7e1b, #e1e1e1, #00b400); 
+}
+
+.logo
+{
+    font-size: 45px;
+    font-weight: bold;
+    color: #28285a;
+    padding: 10px 0 0 100px;
+}
+
+nav
+{
+    padding: 35px 0;
+}
+
+nav a
+{
+    position: relative;
+    font-size: 20px;
+    padding-right: 100px;
+    color: #28285a;
+}
+
+nav a::after
+{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #28285a;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s ease;
+}
+
+nav a:hover::after
+{
+    width: 60%;
+}
+
+.person
+{
+    border-radius: 50px ;
+    margin: 50px 40px;
+    padding: 20px 0;
+    display: flex;
+    color: #a9a9a9;
+    background: #232323;
+}
+
+.pic
+{
+    flex-basis: 30%;
+}
+.pic img
+{
+    border-radius: 50%;
+    border: 2px solid #ff7e1b;
+}
+
+.content
+{
+    flex-basis: 70%;
+}
+
+.person h1
+{
+    font-size: 40px;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.person h3
+{
+    font-size: 20px;
+    color: #2ba079;
+    padding: 10px 0;
+}
+
+.person p
+{
+    font-size: 15px;
+    padding: 0 10px 20px 0;
+}
+
+.promit .pic
+{
+    padding: 50px 0 0 80px;
+}
+
+.deborshee .pic
+{
+    padding: 40px 0 0 80px;
+}
+
+.sohom .pic
+{
+    padding: 50px 0 0 80px;
+}
+
+.saitama .pic
+{
+    padding: 50px 0 0 80px;
+}
+
+.subodip .pic
+{
+    padding: 10px 0 0 80px;
+}
+
+.dhokabaj .pic
+{
+    padding: 60px 0 0 80px;
+}
+
+i
+{
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+i:hover
+{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+footer
+{
+    background: #313131;
+    color: white;
+    text-align: center;
+}
