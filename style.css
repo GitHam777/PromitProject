@@ -92,6 +92,19 @@ nav a:hover::after
     border: 2px solid #ff7e1b;
 }
 
+.pic a 
+{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    transition: transform 0.5s;
+}
+
+.pic a:hover
+{
+    transform: translateY(-15px);
+}
+
 .content
 {
     flex-basis: 70%;
@@ -145,17 +158,5 @@ nav a:hover::after
 .dhokabaj .pic
 {
     padding: 60px 0 0 80px;
-}
-
-i
-{
-    font-size: 30px;
-    transition: 0.5s;
-}
-
-i:hover
-{
-    transform: translateY(-10px);
-    cursor: pointer;
 }
 
