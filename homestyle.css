@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #232323;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #5cd5ad;
+}
+
+body
+{
+    background: #111111;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right,#ff7e1b, #e1e1e1, #00b400); 
+}
+
+.logo
+{
+    font-size: 45px;
+    font-weight: bold;
+    color: #28285a;
+    padding: 10px 0 0 100px;
+}
+
+nav
+{
+    padding: 35px 0;
+}
+
+nav a
+{
+    position: relative;
+    font-size: 20px;
+    padding-right: 100px;
+    color: #28285a;
+}
+
+nav a::after
+{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #28285a;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s ease;
+}
+
+nav a:hover::after
+{
+    width: 60%;
+}
+
+
+.firstsection
+{
+    background-image: url(images/parking-lot.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.firstsection div
+{
+    width: 900px;
+    padding: 150px 0 200px 60px;
+}
+
+.firstsection div p
+{
+    color: #fdfdfd;
+    padding: 10px 30px;
+    border-radius: 70px;
+    font-size: 35px;
+    font-weight: 900;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.secondsection
+{
+    padding: 30px 40px;
+}
+
+.secondsection h1
+{
+    color: #fdfdfd;
+    font-size: 50px;
+    padding: 20px 180px;
+}
+
+.secondsection p
+{
+    color: #e1e1e1;
+    padding: 20px 50px;
+    font-size: 20px;
+}
+
+.secondsection span
+{
+    color: #5cd5ad;
+}
+
+.thirdsection
+{
+    padding: 30px 40px;
+}
+
+.thirdsection h1
+{
+    color: #fdfdfd;
+    font-size: 40px;
+    padding: 20px 120px;
+}
+
+.thirdsection p
+{
+    color: #e1e1e1;
+    padding: 20px 50px;
+    font-size: 20px;
+}
+
+.thirdsection span
+{
+    color: #5cd5ad;
+}
+
+.thirdsection div
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 40px;
+    padding: 40px 150px;
+}
+
+.thirdsection div img
+{
+    width: 100%;
+    height: 450px;
+}
